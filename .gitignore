@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model and tokenizer files
+saved_summary_model/model.safetensors
+saved_summary_model/spiece.model
+saved_summary_model/tokenizer.json
+*.safetensors
